@@ -13,16 +13,6 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
-li {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-/* css to reset all the designs */
-
 /* add styles on elements */
 
 .header {
@@ -60,6 +50,7 @@ a {
 
 .nav-item {
     margin-left: 5rem;
+    list-style:none;
 }
 
 .nav-link {
@@ -68,7 +59,7 @@ a {
     font-weight: 400;
     /* color: #475569; */
     color: #fff;
-    /* change */
+    text-decoration: none;
 }
 
 .nav-link:hover {
@@ -81,6 +72,7 @@ a {
     font-weight: 500;
     /* color: #482ff7; */
     color: #fff;
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 768px) {
@@ -90,7 +82,7 @@ a {
         top: 5rem;
         flex-direction: column;
         /* background-color: #fff; */
-        background-color: #222;
+        background-color: #d3bd3e;
         width: 100%;
         border-radius: 10px;
         text-align: center;
